@@ -1,0 +1,177 @@
+version: 4.0.64
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: scroll-until-text
+        text: Privacy Policy
+        direction: down
+      - command: hover-text
+        text: Privacy Policy
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Terms of Service
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Cookie Policy
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: scroll-until-text
+        text: Terms of Service
+        direction: down
+      - command: hover-text
+        text: Cookie Policy
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Privacy Policy
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: hover-text
+        text: Data Processing Addendum
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: scroll-until-text
+        text: Cookie Notice
+        direction: down
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Cookie Notice
+        direction: down
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Cookie Notice
+        direction: down
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Cookie Notice
+        direction: down
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Cookie Notice
+        direction: down
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Cookie Notice
+        direction: down
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
+  - prompt: Click on each link in the footer.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: scroll-until-text
+        text: Cookie Notice
+        direction: down
+      - command: hover-text
+        text: Cookie Notice
+        description: link in the footer
+        action: click
+      - command: wait
+        timeout: 2000
+      - command: hover-text
+        text: Notion's List of Subprocessors
+        description: link in the footer
+        action: click
