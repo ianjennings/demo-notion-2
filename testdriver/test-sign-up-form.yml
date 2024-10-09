@@ -1,0 +1,80 @@
+version: 4.0.64
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Navigate to the sign-up page.
+    commands:
+      - command: hover-text
+        text: Get Notion free
+        description: button to navigate to the sign-up page
+        action: click
+  - prompt: Fill in the sign-up form fields with test data.
+    commands:
+      - command: hover-text
+        text: Enter your email address...
+        description: email input field
+        action: click
+      - command: type
+        text: test@example.com
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Continue
+        description: button to submit the sign-up form
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
+  - prompt: Click the "Sign Up" button.
+    commands:
+      - command: hover-text
+        text: Verify email
+        description: button to submit the email verification
+        action: click
