@@ -1,0 +1,156 @@
+version: 4.0.64
+steps:
+  - prompt: Focus the browser window.
+    commands:
+      - command: focus-application
+        name: Google Chrome
+  - prompt: Navigate to a product page.
+    commands:
+      - command: hover-text
+        text: Product
+        description: link in the header
+        action: click
+  - prompt: Navigate to a product page.
+    commands:
+      - command: hover-text
+        text: AI
+        description: AI option in the Product dropdown
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Get Notion free
+        description: button to add to cart or start process
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: focus-application
+        name: Google Chrome
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
+  - prompt: Click on "Add to Cart."
+    commands:
+      - command: hover-text
+        text: Products
+        description: link in the header
+        action: click
+      - command: hover-text
+        text: AI Product
+        description: specific product option in the dropdown
+        action: click
+      - command: hover-text
+        text: Add to Cart
+        description: button on the product page
+        action: click
